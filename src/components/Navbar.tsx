@@ -29,13 +29,13 @@ export function Navbar() {
           : "bg-transparent"
       }`}
     >
-      <div className="mx-auto flex h-20 max-w-7xl items-center justify-between px-6 sm:px-8">
+      <div className="mx-auto flex h-16 sm:h-20 max-w-7xl items-center justify-between px-4 sm:px-6 md:px-8">
         {/* Logo */}
-        <Link href="/" className="group flex items-center gap-3">
-          <div className="flex h-10 w-10 items-center justify-center rounded-xl bg-primary shadow-[0_0_15px_rgba(253,88,0,0.15)] group-hover:shadow-[0_0_25px_rgba(253,88,0,0.3)] transition-all duration-300">
-            <FileText className="h-5 w-5 text-primary-foreground" />
+        <Link href="/" className="group flex items-center gap-2.5 sm:gap-3">
+          <div className="flex h-9 w-9 sm:h-10 sm:w-10 items-center justify-center rounded-xl bg-primary shadow-[0_0_15px_rgba(253,88,0,0.15)] group-hover:shadow-[0_0_25px_rgba(253,88,0,0.3)] transition-all duration-300">
+            <FileText className="h-4 w-4 sm:h-5 sm:w-5 text-primary-foreground" />
           </div>
-          <span className="text-xl font-extrabold tracking-tight font-[family-name:var(--font-poppins)] text-foreground">
+          <span className="text-lg sm:text-xl font-extrabold tracking-tight font-[family-name:var(--font-poppins)] text-foreground">
             ResumeKit
           </span>
         </Link>
@@ -81,7 +81,7 @@ export function Navbar() {
             animate={{ opacity: 1, y: 0 }}
             exit={{ opacity: 0, y: -10 }}
             transition={{ duration: 0.2 }}
-            className="absolute top-20 left-0 right-0 bg-card/95 backdrop-blur-2xl border-b border-border px-6 pb-6 pt-2 space-y-1 shadow-lg md:hidden"
+            className="absolute top-16 sm:top-20 left-0 right-0 bg-card/95 backdrop-blur-2xl border-b border-border px-4 sm:px-6 pb-6 pt-2 space-y-1 shadow-lg md:hidden"
           >
             {navLinks.map((link) => (
               <a
