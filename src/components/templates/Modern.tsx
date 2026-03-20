@@ -4,7 +4,7 @@ export function Modern({ data }: { data: ResumeData }) {
   const { personalInfo, workExperience, education, skills, projects } = data;
 
   return (
-    <div className="flex h-full bg-white text-gray-800 font-sans text-[11px] overflow-hidden">
+    <div className="flex bg-white text-gray-800 font-sans text-[11px]">
       {/* Sidebar */}
       <div className="w-[35%] bg-[#1e1e1e] text-gray-100 p-5 flex flex-col">
         <div className="mb-6">

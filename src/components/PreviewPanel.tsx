@@ -27,7 +27,7 @@ export function PreviewPanel() {
   return (
     <div
       id="resume-preview"
-      className="w-full overflow-hidden rounded-lg bg-white shadow-lg ring-1 ring-black/5 aspect-[1/1.414] print:shadow-none print:rounded-none print:ring-0"
+      className="w-full min-h-0 aspect-[1/1.414] rounded-lg bg-white shadow-lg ring-1 ring-black/5 print:shadow-none print:rounded-none print:ring-0"
     >
       {renderTemplate()}
     </div>

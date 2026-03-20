@@ -4,7 +4,7 @@ export function Creative({ data }: { data: ResumeData }) {
   const { personalInfo, workExperience, education, skills, projects } = data;
 
   return (
-    <div className="h-full bg-white text-gray-800 font-sans text-[11px] overflow-hidden">
+    <div className="bg-white text-gray-800 font-sans text-[11px]">
       {/* Orange accent bar */}
       <div className="h-1.5 bg-[#fd5800]" />
 

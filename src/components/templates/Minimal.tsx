@@ -4,7 +4,7 @@ export function Minimal({ data }: { data: ResumeData }) {
   const { personalInfo, workExperience, education, skills, projects } = data;
 
   return (
-    <div className="h-full p-6 bg-white text-gray-800 font-sans text-[11px] leading-relaxed">
+    <div className="p-6 bg-white text-gray-800 font-sans text-[11px] leading-relaxed">
       {/* Header */}
       <header className="text-center border-b border-gray-300 pb-3 mb-4">
         <h1 className="text-2xl font-bold uppercase tracking-wider text-gray-900">

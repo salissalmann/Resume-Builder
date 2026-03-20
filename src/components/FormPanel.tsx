@@ -120,7 +120,7 @@ export function FormPanel() {
 
       <Accordion
         multiple
-        defaultValue={[0]}
+        defaultValue={["personal"]}
         className="space-y-3"
       >
         {/* Personal Information */}

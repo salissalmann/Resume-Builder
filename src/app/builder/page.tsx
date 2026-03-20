@@ -45,7 +45,7 @@ export default function BuilderPage() {
   const handleExportDOCX = async () => {
     setExportingDOCX(true);
     const filename = `${resumeData.personalInfo.fullName.replace(/\s+/g, "_")}_Resume`;
-    await downloadDOCX(resumeData, filename);
+    await downloadDOCX(resumeData, filename, activeTemplate);
     setExportingDOCX(false);
   };
 
